@@ -1,0 +1,83 @@
+    1  pwd
+    2  cd desktop
+    3  mkdir project
+    4  cd project
+    5  git init
+    6  touch f1
+    7  git add f1
+    8  pwd
+    9  git init
+   10  exit
+   11  pwd
+   12  cd ..
+   13  pwd
+   14  ls
+   15  cd USER-0
+   16  LS
+   17  cd Desktop
+   18  cd Devops-Learning
+   19  git init
+   20  echo "# Devops Restart" >> Readme.md
+   21  git add .
+   22  git commit -m "First commit"
+   23  git config --global user.email "himanshu18dec@gmail.com
+   24  git config --global user.name "Himanshu"
+   25  git commit -m "First commit"
+   26  git branch -m main
+   27  git remote add origin
+   28  git remote add origin https://github.com/himanshu181297/Devops-Learning.git
+   29  git push -u origin main
+   30  git push -u origin Main
+   31  git branch'
+   32  git branch
+   33  git branch
+   34  ls
+   35  pwd
+   36  cd Desktop
+   37  cd Devops-Learning
+   38  git init
+   39  echo "# Devops Restart">> README.md
+   40  git add .
+   41  git commit -m "First commit"
+   42  git config --global user.email "himanshu18dec@gmail.com
+   43  git config --global user.email "himanshu18dec@gmal.com"
+   44  git config --global user.name "himanshu"
+   45  git commit -m "First commit"
+   46  git branch -M main
+   47  git remote add origin https://github.com/himanshu181297/Devops-Learning.git
+   48  git push -u origin main
+   49  git push -u origin main
+   50  git push -u origin main
+   51  pwd
+   52  cd Desktop
+   53  ls
+   54  ls -l
+   55  mkdir linux-practice
+   56  cd linux-practice
+   57  ls
+   58  touch test.txt
+   59  ls
+   60  cat>test.txt
+   61  cat test.txt
+   62  grep "Hello">test.txt
+   63  grep Hello
+   64  grep "Hello" test.txt
+   65  mv test.txt linux-practice Devops-Learning
+   66  cd ..
+   67  [200~$
+   68  pwd
+   69  cd Desktop
+   70  mv test.txt lnux-practice Devops-Learning
+   71  mv test.txt linux-practice Devops-Learning
+   72  cd linux-practice
+   73  cd Devops-Learning
+   74  mv text.txt linux-practice Devops-Learning
+   75  git init
+   76  git status
+   77  git add test.txt
+   78  git status
+   79  git commit -m "first commit"
+   80  history
+   81  git remote add origin https://github.com/himanshu181297/Devops-Learning.git
+   82  git push -u origin main
+   83  history | cat>>test.txt
