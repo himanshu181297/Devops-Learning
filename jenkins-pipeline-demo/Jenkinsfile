@@ -1,22 +1,33 @@
-groovy
-
 pipeline {
-   agent any
-   stages {
-      stage('Build') {
-         steps {
-            echo ' Building the application....'
-           }	
-       } 
-      stage('Test') {
-         steps {
-            echo 'Running Tests ... '
-        } 
-      } 
-      stage('Deploy') {
-         steps {
-            echo 'Deploying Application ...'
+    agent any
+
+    stages {
+        stage('Clone Code') {
+            steps {
+                git branch: 'main', url: 'https://github.com/himanshu181297/Devops-Learning.git'
+            }
         }
-      } 
-    } 
-  } 
+
+        stage('Build') {
+            steps {
+                echo "Building the application..."
+                sh 'echo Build stage executed'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo "Running tests..."
+                sh 'echo Test stage executed'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo "Deploying the application..."
+                sh 'echo Deploy stage executed'
+            }
+        }
+    }
+}
+ 
